@@ -1,4 +1,82 @@
-.background {
-  background-color: rgb(134, 241, 188);
+*,
+:after,
+before {
+  box-sizing: border-box;
+}
+
+body {
   display: flex;
+  margin: 0;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f7f3e9;
+}
+
+.hlavicka {
+  height: 100px;
+  margin: 0;
+  min-height: 40vh;
+  padding: 10px 50px 10px 50px;
+  background-image: url('IMG/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.o_nas {
+  display: flex;
+  flex-direction: row;
+  min-height: 30vh;
+  margin: 0;
+}
+
+.magda {
+  background-color: #a3d2ca;
+  flex-basis: 50%;
+  padding: 10px 50px 10px 50px;
+}
+
+.marketa {
+  background-color: #5eaaa8;
+  flex-basis: 50%;
+  padding: 10px 50px 10px 50px;
+}
+
+.projekt {
+  background-color: #f05945;
+  margin: 0;
+  min-height: 30vh;
+  color: white;
+  padding: 10px 50px 10px 50px;
+}
+
+.kontakty {
+  padding: 10px 50px 10px 50px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 38px;
+}
+
+.titulek {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 120px;
+  text-align: center;
+  color: #f05945;
+  text-shadow: 1px 2px 3px black;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-align: 1, 5em;
+}
+
+a {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #f05945;
+  text-decoration: none;
+  font-size: 20px;
 }
