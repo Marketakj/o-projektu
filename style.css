@@ -16,7 +16,7 @@ body {
   height: 100px;
   margin: 0;
   min-height: 40vh;
-  padding: 10px 50px 10px 50px;
+  padding: 20px 50px 20px 50px;
   background-image: url('IMG/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,28 +25,28 @@ body {
 .o_nas {
   display: flex;
   flex-direction: row;
-  min-height: 30vh;
+  min-height: 15vh;
   margin: 0;
 }
 
 .magda {
   background-color: #a3d2ca;
   flex-basis: 50%;
-  padding: 10px 50px 10px 50px;
+  padding: 50px 100px 50px 100px;
 }
 
 .marketa {
   background-color: #5eaaa8;
   flex-basis: 50%;
-  padding: 10px 50px 10px 50px;
+  padding: 50px 70px 50px 70px;
 }
 
 .projekt {
   background-color: #f05945;
   margin: 0;
-  min-height: 30vh;
+  min-height: 45vh;
   color: white;
-  padding: 10px 50px 10px 50px;
+  padding: 20px 100px 20px 100px;
 }
 
 .o_projektu {
@@ -62,12 +62,14 @@ body {
 .kontakty {
   padding: 10px 50px 10px 50px;
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  line-height: 1.5;
   text-align: center;
 }
 
 h2 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 38px;
+  padding: 0;
 }
 
 .titulek {
@@ -81,7 +83,7 @@ h2 {
 p {
   font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
-  text-align: 1, 5em;
+  line-height: 1.5;
 }
 
 a {
@@ -89,6 +91,7 @@ a {
   color: #f05945;
   text-decoration: none;
   font-size: 20px;
+  line-height: 1.5;
 }
 
 /* Magda sekce*/
@@ -114,23 +117,26 @@ a {
   display: flex;
   background-image: url(IMG/fotka-Magda.jpg);
   background-size: cover;
-  flex-basis: 34%;
+  flex-basis: calc(100% / 3);
   padding: 30px 50px 30px 50px;
 }
 
 .okno2_magda {
   background-color: #5eaaa8;
-  flex-basis: 34%;
-  padding: 30px 50px 30px 50px;
+  flex-basis: calc(100% / 3);
+  padding: 80px 60px 60px 60px;
   color: white;
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 40px;
 }
 
 .okno3_magda {
   background-color: #a3d2ca;
-  flex-basis: 34%;
+  flex-basis: calc(100% / 3);
   padding: 30px 50px 30px 50px;
+  line-height: 1.5;
 }
 
 .text_magda {
@@ -140,7 +146,7 @@ a {
   margin: 0;
   min-height: 30vh;
   color: white;
-  padding: 40px 50px 10px 50px;
+  padding: 80px 60px 60px 60px;
   font-family: 'Times New Roman', Times, serif;
   font-size: 30px;
   text-align: 1, 5em;
@@ -212,7 +218,13 @@ a {
 .jmeno {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 90px;
+  line-height: 1.5;
   text-align: center;
   color: #f05945;
   text-shadow: 1px 2px 3px black;
+}
+
+.tlacitko {
+  font-size: 30px;
+  line-height: 1.5;
 }
