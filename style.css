@@ -49,6 +49,16 @@ body {
   padding: 10px 50px 10px 50px;
 }
 
+.o_projektu {
+  background-color: #f05945;
+  margin: 0;
+  min-height: 30vh;
+  color: white;
+  padding: 10px 50px 10px 50px;
+  font-size: 30px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
 .kontakty {
   padding: 10px 50px 10px 50px;
   font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -103,6 +113,69 @@ a {
 .okno1_magda {
   display: flex;
   background-image: url(IMG/fotka-Magda.jpg);
+  background-size: cover;
+  flex-basis: 34%;
+  padding: 30px 50px 30px 50px;
+}
+
+.okno2_magda {
+  background-color: #5eaaa8;
+  flex-basis: 34%;
+  padding: 30px 50px 30px 50px;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 30px;
+}
+
+.okno3_magda {
+  background-color: #a3d2ca;
+  flex-basis: 34%;
+  padding: 30px 50px 30px 50px;
+}
+
+.text_magda {
+  background-color: #f05945;
+  min-height: 45vh;
+  background-color: #f05945;
+  margin: 0;
+  min-height: 30vh;
+  color: white;
+  padding: 40px 50px 10px 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: 1, 5em;
+}
+
+.jmeno {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 90px;
+  text-align: center;
+  color: #f05945;
+  text-shadow: 1px 2px 3px black;
+}
+
+/* Markéta sekce*/
+.box {
+  display: flex;
+  flex-direction: row;
+  min-height: 40vh;
+  margin: 0;
+}
+
+.uvod_magda {
+  display: flex;
+  height: 100px;
+  margin: 0;
+  min-height: 45vh;
+  padding: 10px 50px 10px 50px;
+  background-image: url('IMG/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.okno1_marketa {
+  display: flex;
+  background-image: url(IMG/fotka-Marketa.jpg);
   background-size: cover;
   flex-basis: 34%;
   padding: 30px 50px 30px 50px;
