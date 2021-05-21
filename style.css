@@ -18,7 +18,7 @@ body {
   min-height: 40vh;
   padding: 20px 50px 20px 50px;
   background-image: url('IMG/background.jpg');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   color: white;
 }
@@ -115,10 +115,17 @@ a {
 
 .okno1_magda {
   display: flex;
-  background-image: url(IMG/fotka-Magda.jpg);
-  background-size: cover;
+  /*   background-image: url(IMG/fotka-Magda.jpg);
+  background-size: contain; */
   flex-basis: calc(100% / 3);
-  padding: 30px 50px 30px 50px;
+  padding: 0;
+}
+
+.foto_magda {
+  max-width: 100%;
+  box-sizing: border-box;
+  height: auto;
+  padding: 0;
 }
 
 .okno2_magda {
