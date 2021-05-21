@@ -30,15 +30,16 @@ body {
 }
 
 .magda {
-  background-color: #a3d2ca;
+  background-color: #b2ebf2;
   flex-basis: 50%;
   padding: 50px 100px 50px 100px;
 }
 
 .marketa {
-  background-color: #5eaaa8;
+  background-color: #0d99a9;
   flex-basis: 50%;
   padding: 50px 70px 50px 70px;
+  color: white;
 }
 
 .projekt {
@@ -47,6 +48,7 @@ body {
   min-height: 45vh;
   color: white;
   padding: 20px 100px 20px 100px;
+  text-align: center;
 }
 
 .o_projektu {
@@ -56,6 +58,7 @@ body {
   color: white;
   padding: 10px 0px 10px 0px;
   font-size: 30px;
+  text-align: 45px;
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
@@ -124,13 +127,15 @@ a {
 
 .foto_magda {
   max-width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%; /* výchozí hodnota */
   box-sizing: border-box;
   height: auto;
   padding: 0;
 }
 
 .okno2_magda {
-  background-color: #5eaaa8;
+  background-color: #0d99a9;
   flex-basis: calc(100% / 3);
   padding: 80px 60px 60px 60px;
   color: white;
@@ -141,7 +146,7 @@ a {
 }
 
 .okno3_magda {
-  background-color: #a3d2ca;
+  background-color: #b2ebf2;
   flex-basis: calc(100% / 3);
   padding: 80px 60px 60px 60px;
   line-height: 1.5;
@@ -150,11 +155,10 @@ a {
 .text_magda {
   background-color: #f05945;
   min-height: 45vh;
-  background-color: #f05945;
   margin: 0;
   min-height: 30vh;
   color: white;
-  padding: 80px 60px 60px 60px;
+  padding: 80px 60px 60px 80px;
   font-family: 'Times New Roman', Times, serif;
   font-size: 30px;
   text-align: 1, 5em;
@@ -185,6 +189,7 @@ a {
   background-image: url('IMG/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  column-count: 2;
 }
 
 .okno1_marketa {
@@ -196,7 +201,7 @@ a {
 }
 
 .okno2_marketa {
-  background-color: #5eaaa8;
+  background-color: #0d99a9;
   flex-basis: 34%;
   padding: 30px 50px 30px 50px;
   color: white;
@@ -205,7 +210,7 @@ a {
 }
 
 .okno3_marketa {
-  background-color: #a3d2ca;
+  background-color: #b2ebf2;
   flex-basis: 34%;
   padding: 30px 50px 30px 50px;
 }
@@ -213,13 +218,12 @@ a {
 .text_magda {
   background-color: #f05945;
   min-height: 45vh;
-  background-color: #f05945;
   margin: 0;
   min-height: 30vh;
   color: white;
-  padding: 40px 50px 10px 50px;
+  padding: 80px 60px 60px 80px;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 18px;
+  font-size: 20px;
   text-align: 1, 5em;
 }
 
@@ -235,4 +239,8 @@ a {
 .tlacitko {
   font-size: 30px;
   line-height: 1.5;
+}
+
+.tlacitko__Marketa {
+  color: #f0d8d5;
 }
