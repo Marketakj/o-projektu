@@ -18,7 +18,7 @@ body {
   min-height: 40vh;
   padding: 20px 50px 20px 50px;
   background-image: url('IMG/background.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   color: white;
 }
@@ -70,6 +70,7 @@ h2 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 38px;
   padding: 0;
+  margin: 0;
 }
 
 .titulek {
@@ -142,7 +143,7 @@ a {
 .okno3_magda {
   background-color: #a3d2ca;
   flex-basis: calc(100% / 3);
-  padding: 30px 50px 30px 50px;
+  padding: 80px 60px 60px 60px;
   line-height: 1.5;
 }
 
@@ -194,7 +195,7 @@ a {
   padding: 30px 50px 30px 50px;
 }
 
-.okno2_magda {
+.okno2_marketa {
   background-color: #5eaaa8;
   flex-basis: 34%;
   padding: 30px 50px 30px 50px;
@@ -203,7 +204,7 @@ a {
   font-size: 30px;
 }
 
-.okno3_magda {
+.okno3_marketa {
   background-color: #a3d2ca;
   flex-basis: 34%;
   padding: 30px 50px 30px 50px;
